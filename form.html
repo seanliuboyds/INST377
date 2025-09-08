@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+        }
+        
+        .form-container {
+            margin: 20px;
+        }
+        
+        .form-container label {
+            font-size: 18px;
+        }
+        
+        .form-container input[type="text"] {
+            margin: 10px 0;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 15px 0;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #01eaff;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="page2.html" method = "get">
+            <label for="name">Name (Required):</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="name">Social Credit Score:</label><br>
+            <input type="text" id="scs" name="scs"><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body> 
+</html>
